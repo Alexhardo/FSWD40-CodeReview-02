@@ -1,0 +1,56 @@
+header {
+    /*set a top margin  */
+    margin-top: 3px;
+}
+
+#pic {
+    /*set the background color of the logo on red and the colore of the font on white */
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    padding-left:  25px;
+
+}
+
+.container {
+    /*set the size of the header and the footer on 800 px and fone on arial */
+    font-family: arial;
+    margin-left: 10cm;
+    width: 920px;
+    background-color: #ecf2f9;
+}
+
+
+
+a {
+    /*remove underline in nav and set color to white*/
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#bod img {
+    /*resize the images and set a margin from top*/
+    margin-top: 7mm;
+    margin-bottom: 7mm;
+    margin-left: 7mm;
+    margin-right: 7mm;
+    width: 400px;
+    height: 400px;
+}
+
+figcaption {
+    /*set a font type and size to the captions of the images */
+    font-size: 1.3em;
+    font-family: arial;
+}
+
+footer {
+    /*set a color, location and padding for the footer*/
+    padding: 14px 16px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
