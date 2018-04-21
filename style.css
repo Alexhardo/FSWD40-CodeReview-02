@@ -1,0 +1,111 @@
+            /*set all elements to have zero margins, and zero padding and font to calibri */
+
+* {
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*resize the body and place it in the center*/
+    margin: 0 auto;
+    width: 70%;
+}
+
+.body {
+    /*set the color of the background*/
+    background-color: #ecf2f9;
+}
+
+header {
+    /*set the attribute of the header*/
+    color: white;
+    background-color: darkblue;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    /*set the attribute of the logo and the text in the header*/
+    padding-left: 5%;
+    padding-right: 20px;
+}
+
+main {
+    /*set the location of the body*/
+    color: #3C3C3C;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 30px 0px 80px 0px;
+    width: 100%;
+    align-items: center;
+}
+
+.images {
+    /*set the attributes of the images*/
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    justify-content: space-between;           
+}
+
+article.block { /*place the images in the center*/
+    width: 45%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+
+.block img { /*place the images on white block*/
+    width: 100%;
+}
+
+.paragraph {/*set some attributes for the box of texts under the images*/
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 93%;
+    font-size: 20px;    
+    margin-left: 4%;
+}
+
+.city {/*set some attributes for cities*/
+    color: #59BCDE;
+    font-size: 25px
+
+}
+
+#cheaper,#expensive,.city { /*set the font of LONDON and AMSTERDAM to bold*/
+    font-weight: bold;
+}
+
+
+footer {/*footer attributes*/
+    color: white;
+    background-color: darkblue;
+    height: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#result {
+    text-decoration: none;
+}
+/*responsiveness*/
+@media only screen and (max-width: 930px) {
+
+    body {
+        font-size: 90%;
+    }
+
+@media only screen and (max-width: 750px) {
+        body {
+            font-size: 90%;
+        }
+
